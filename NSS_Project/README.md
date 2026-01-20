@@ -37,13 +37,7 @@ A robust platform for NGO registration and donation management, separating user 
 2. Open your browser to:
    `http://127.0.0.1:5000`
 
-### Admin Access
-- Register a new user.
-- (Optional) To make them an admin, you would manually update the `role` in the SQLite database to `'admin'`, or use the API logic if exposed (for this demo, any user can try, but role separation is enforced in code. *Note for Evaluator: For easy testing, register with email 'admin@hope.com' - code logic treats generic users as 'user', modify DB for admin or see demo video.*)
-
-## Testing
-Run the automated API verification script:
-```bash
-python test_api.py
-```
-*(Ensure the server is running in another terminal)*
+### Admin Credentials
+For testing admin features, use these credentials:
+- **Email**: admin@gmail.com
+- **Password**: admin123
